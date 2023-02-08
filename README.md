@@ -1,6 +1,11 @@
 # publication-comments
 
 ## run
-    
-    -npm install
-    -npm start
+
+-Install dependencies:
+
+    npm install
+
+-Run the application:
+
+    npm start
