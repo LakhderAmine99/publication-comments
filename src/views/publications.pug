@@ -1,0 +1,14 @@
+extends layout/main
+
+block content
+  h1(class="top-title") Publications
+
+  div(class="grid")
+    for publication in publications
+      div(class="card")
+        div(class="title")
+          h2= publication.title
+        div(class="desc")
+          p= publication.description
+        div
+          a(href=`/publication/${publication.id}`) View Publication
